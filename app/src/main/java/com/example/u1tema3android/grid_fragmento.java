@@ -18,7 +18,7 @@ public class grid_fragmento  extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view= inflater.inflate(R.layout.activity_grid_fragmento,container,false);
         GridView gv = view.findViewById(R.id.migridview);
-        ArrayAdapter miarrayadapter= ArrayAdapter.createFromResource(getActivity(),R.array.lista,android.R.layout.simple_list_item_1);
+        ArrayAdapter miarrayadapter= ArrayAdapter.createFromResource(getActivity(),R.array.milista,android.R.layout.simple_list_item_1);
         gv.setAdapter(miarrayadapter);
         return view;
     }

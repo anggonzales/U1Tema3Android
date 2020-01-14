@@ -9,10 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".grid_fragmento"></activity>
+        <activity android:name=".MainFragmentCorreo"></activity>
+        <activity android:name=".detalle_correo" />
+        <activity android:name=".lis_item_correo" />
+        <activity android:name=".ListaCorreo" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".grid_fragmento" />
         <activity android:name=".lista_fragmento" />
-        <activity android:name=".Comunicacion1Kotlin" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".EjemplosFragment">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
