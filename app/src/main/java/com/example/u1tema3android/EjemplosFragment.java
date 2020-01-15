@@ -6,6 +6,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.u1tema3android.Ejemplo2.ListaCorreo;
+import com.example.u1tema3android.Ejemplo1.MainActivity;
+import com.example.u1tema3android.Ejemplo3.MainFragmentCorreo;
+
 public class EjemplosFragment extends AppCompatActivity {
 
     @Override

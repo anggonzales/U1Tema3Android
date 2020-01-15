@@ -1,4 +1,4 @@
-package com.example.u1tema3android;
+package com.example.u1tema3android.Ejemplo3;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -8,6 +8,9 @@ import android.view.ViewGroup;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.u1tema3android.Ejemplo3.Correo;
+import com.example.u1tema3android.R;
 
 public class ListaCorreoFragment  extends Fragment {
     private RecyclerView recyclerView;

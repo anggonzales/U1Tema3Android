@@ -1,4 +1,4 @@
-package com.example.u1tema3android;
+package com.example.u1tema3android.Ejemplo1;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -9,17 +9,14 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
-import android.widget.GridView;
 
-public class grid_fragmento  extends Fragment {
+import com.example.u1tema3android.R;
+
+public class lista_fragmento  extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view= inflater.inflate(R.layout.activity_grid_fragmento,container,false);
-        GridView gv = view.findViewById(R.id.migridview);
-        ArrayAdapter miarrayadapter= ArrayAdapter.createFromResource(getActivity(),R.array.milista,android.R.layout.simple_list_item_1);
-        gv.setAdapter(miarrayadapter);
+        View view= inflater.inflate(R.layout.activity_lista_fragmento,container,false);
         return view;
     }
 }

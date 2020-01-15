@@ -1,15 +1,18 @@
-package com.example.u1tema3android;
+package com.example.u1tema3android.Ejemplo1;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
-import androidx.fragment.app.ListFragment;
 
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Spinner;
+
+import com.example.u1tema3android.Ejemplo1.grid_fragmento;
+import com.example.u1tema3android.Ejemplo1.lista_fragmento;
+import com.example.u1tema3android.R;
 
 public class MainActivity extends AppCompatActivity {
 

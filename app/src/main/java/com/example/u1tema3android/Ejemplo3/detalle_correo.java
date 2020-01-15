@@ -1,9 +1,11 @@
-package com.example.u1tema3android;
-
-import androidx.appcompat.app.AppCompatActivity;
+package com.example.u1tema3android.Ejemplo3;
 
 import android.os.Bundle;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.u1tema3android.R;
 
 public class detalle_correo extends AppCompatActivity {
     TextView txtde;
@@ -28,9 +30,9 @@ public class detalle_correo extends AppCompatActivity {
         ttexto=findViewById(R.id.txttexto);
         tasunto=findViewById(R.id.txtasunto);
 
-        //txtde.setText(de);
-        //ttexto.setText(texto);
-        /*tasunto.setText(asunto);*/
+        txtde.setText(de);
+        ttexto.setText(texto);
+        tasunto.setText(asunto);
 
         ttodo.setText(de + " " + asunto +" " + "" + texto);
 

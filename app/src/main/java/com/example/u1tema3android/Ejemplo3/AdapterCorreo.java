@@ -1,4 +1,4 @@
-package com.example.u1tema3android;
+package com.example.u1tema3android.Ejemplo3;
 
 import android.content.Context;
 import android.content.Intent;
@@ -8,6 +8,10 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.u1tema3android.Ejemplo3.Correo;
+import com.example.u1tema3android.R;
+import com.example.u1tema3android.Ejemplo3.detalle_correo;
 
 public class AdapterCorreo extends RecyclerView.Adapter<AdapterCorreo.ViewHolder> {
     private LayoutInflater inflador; Correo[] datos; Context micontext;

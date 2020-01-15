@@ -1,6 +1,6 @@
-package com.example.u1tema3android;
+package com.example.u1tema3android.Ejemplo3;
 
-public class Correo  {
+public class Correo {
     private String de;
     private String asunto;
     private String texto;

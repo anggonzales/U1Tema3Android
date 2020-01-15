@@ -1,10 +1,14 @@
-package com.example.u1tema3android;
+package com.example.u1tema3android.Ejemplo2;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+
+import com.example.u1tema3android.Ejemplo2.Correo;
+import com.example.u1tema3android.Ejemplo3.AdapterCorreo;
+import com.example.u1tema3android.R;
 
 public class ListaCorreo extends AppCompatActivity {
     private RecyclerView recyclerView;
